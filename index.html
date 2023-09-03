@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="">
+<html class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,49 +12,179 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <div class="containers font-spartan">
-      <!--============================= buttons========================== -->
+  <body
+    class="bg-lightGray dark:bg-veryDarkDesaturatedBlue1 h-fit md:h-screen lg:h-fit"
+  >
+    <!-- ==========================================================================Container========================================================== -->
+    <div class="containers font-spartan max-w-xl mx-auto px-6 py-8">
+      <!-- ==========================================================Navigation bar======================== -->
+      <div class="flex flex-row justify-between items-end">
+        <!-- ===============================Calc================ -->
+        <div>
+          <h1
+            class="text-3xl text-veryDarkGrayishYello dark:text-white lowercase"
+          >
+            Calc
+          </h1>
+        </div>
+
+        <!-- ===================================TOGGLE SECTION= -->
+        <div class="flex flex-row items-end gap-6">
+          <!--=========== theme========== -->
+          <div class="">
+            <p
+              class="uppercase text-sm dark:text-sm tracking-wider text-veryDarkGrayishYello dark:text-white"
+            >
+              Theme
+            </p>
+          </div>
+          <!-- ===========toggle button============== -->
+          <div class="grid grid-cols-1 gap-0">
+            <!-- btn numbering -->
+            <div
+              class="w-fit text-sm text-veryDarkGrayishYello dark:text-white flex justify-center items-center space-x-8 pl-2.5"
+            >
+              <p>1</p>
+              <p>2</p>
+            </div>
+
+            <!-- toggle btn -->
+            <div
+              class="bg-grayishRed dark:bg-veryDarkDesaturatedBlue2 w-fit flex justify-center items-center space-x-5 py-1 px-1.5 rounded-full"
+            >
+              <input
+                type="radio"
+                name="theme"
+                id=""
+                checked="true"
+                class="radios transition-all duration-200 appearance-none checked:bg-orange dark:checked:bg-desaturatedRed1 p-2 rounded-full"
+                value="radio-button"
+              />
+              <input
+                type="radio"
+                name="theme"
+                id=""
+                class="radios transition-all duration-200 appearance-none checked:bg-orange dark:checked:bg-desaturatedRed1 p-2 rounded-full"
+                value="radio-button"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =============================================================screen============================================= -->
+      <!-- screen -->
       <div
-        class="grid grid-cols-4 gap-5 bg-grayishRed dark:bg-veryDarkDesaturatedBlue2 p-8 rounded-lg"
+        class="mt-10 w-full py-6 md:py-8 px-6 rounded-xl bg-veryLightGray dark:bg-veryDarkDesaturatedBlue3 text-right"
+      >
+        <h1
+          class="screen-text text-5xl text-veryDarkGrayishYello dark:text-white"
+        >
+          0
+        </h1>
+      </div>
+
+      <!--================================================== buttons============================================== -->
+      <div
+        class="grid mt-8 grid-cols-4 gap-6 bg-grayishRed dark:bg-veryDarkDesaturatedBlue2 p-7 md:p-8 rounded-lg"
       >
         <!-- first row -->
-        <button class="button-num">7</button>
-        <button class="button-num">8</button>
-        <button class="button-num">9</button>
         <button
-          class="text-2xl text-white uppercase px-4 py-4 hover:opacity-70 transition-opacity duration-300 rounded-md bg-moderateCyan shadow-veryDarkCyan dark:bg-desaturatedBlue1 shadow-mdd dark:shadow-desaturatedBlue2 md:px-8 md:pt-3 md:pb-2"
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          7
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          8
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          9
+        </button>
+        <button
+          class="del-btn text-2xl text-white uppercase py-4 hover:opacity-70 transition-opacity duration-300 rounded-md bg-moderateCyan shadow-veryDarkCyan dark:bg-desaturatedBlue1 shadow-mdd dark:shadow-desaturatedBlue2 md:pt-3 md:pb-2"
         >
           del
         </button>
 
         <!-- second row -->
-        <button class="button-num">4</button>
-        <button class="button-num">5</button>
-        <button class="button-num">6</button>
-        <button class="button-num">+</button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          4
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          5
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          6
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          +
+        </button>
 
         <!-- third row -->
-        <button class="button-num">1</button>
-        <button class="button-num">2</button>
-        <button class="button-num">3</button>
-        <button class="button-num">-</button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          1
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          2
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          3
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          -
+        </button>
 
         <!-- fourth row -->
-        <button class="button-num">.</button>
-        <button class="button-num">0</button>
-        <button class="button-num">/</button>
-        <button class="button-num">x</button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          .
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          0
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          /
+        </button>
+        <button
+          class="button-num hover:bg-white transition-colors duration-300"
+        >
+          x
+        </button>
 
         <!-- fifth row -->
         <button
-          class="col-span-2 text-2xl text-white uppercase py-3 px-7 hover:opacity-70 transition-opacity duration-300 rounded-md bg-blue bg-moderateCyan shadow-veryDarkCyan dark:bg-desaturatedBlue1 shadow-mdd dark:shadow-desaturatedBlue2"
+          class="reset-btn col-span-2 text-2xl text-white uppercase py-3 hover:opacity-70 transition-opacity duration-300 rounded-md bg-blue bg-moderateCyan shadow-veryDarkCyan dark:bg-desaturatedBlue1 shadow-mdd dark:shadow-desaturatedBlue2"
         >
           Reset
         </button>
 
         <button
-          class="col-span-2 text-2xl text-white uppercase py-3 px-7 hover:opacity-70 transition-opacity duration-300 rounded-md bg-orange shadow-darkOrange dark:bg-desaturatedRed1 shadow-mdd dark:shadow-desaturatedRed2"
+          class="equals-btn col-span-2 text-2xl text-white uppercase py-3 hover:opacity-70 transition-opacity duration-300 rounded-md bg-orange shadow-darkOrange dark:bg-desaturatedRed1 shadow-mdd dark:shadow-desaturatedRed2"
         >
           =
         </button>

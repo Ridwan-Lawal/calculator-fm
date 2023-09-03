@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .button-num {
-  @apply py-3 hover:bg-white transition-colors duration-300 px-5 rounded-md rounded-b-md text-veryDarkGrayishYello dark:text-veryDarkGrayishBlue dark:bg-desaturatedOrange1 shadow-mdd bg-lightGrayishYellow shadow-darkGrayishOrange dark:shadow-desaturatedOrange2 text-4xl md:px-8 md:pt-2 md:pb-1;
+  @apply py-3 px-0 md:px-5 rounded-md rounded-b-md text-veryDarkGrayishYello dark:text-veryDarkGrayishBlue dark:bg-desaturatedOrange1 shadow-mdd bg-lightGrayishYellow shadow-darkGrayishOrange dark:shadow-desaturatedOrange2 text-4xl sm:px-8;
 }

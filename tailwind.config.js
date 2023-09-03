@@ -46,7 +46,7 @@ module.exports = {
         // toggle and keypad background
         grayishRed: "hsl(0, 5%, 81%)",
         // screen background
-        veryLightGray: "hsl(0, 0%, 93%))",
+        veryLightGray: "hsl(0, 0%, 94%)",
 
         // =================keys
         // key background cyan
