@@ -1,0 +1,52 @@
+<!-- ==========================================================Navigation bar======================== -->
+<div class="flex flex-row justify-between items-end border">
+  <!-- ===============================Calc================ -->
+  <div>
+    <h1 class="text-3xl text-veryDarkGrayishYello dark:text-white lowercase">
+      Calc
+    </h1>
+  </div>
+
+  <!-- ===================================TOGGLE SECTION= -->
+  <div class="flex flex-row items-end gap-6">
+    <!--=========== theme========== -->
+    <div class="">
+      <p
+        class="uppercase text-sm dark:text-sm tracking-wider text-veryDarkGrayishYello dark:text-white"
+      >
+        Theme
+      </p>
+    </div>
+    <!-- ===========toggle button============== -->
+    <div class="grid grid-cols-1 gap-0">
+      <!-- btn numbering -->
+      <div
+        class="w-fit text-sm text-veryDarkGrayishYello dark:text-white flex justify-center items-center space-x-8 px-2"
+      >
+        <p>1</p>
+        <p>2</p>
+      </div>
+
+      <!-- toggle btn -->
+      <div
+        class="bg-grayishRed dark:bg-veryDarkDesaturatedBlue2 w-fit flex justify-center items-center space-x-5 py-1 px-1.5 rounded-full"
+      >
+        <input
+          type="radio"
+          name="theme"
+          id=""
+          checked="true"
+          class="radios appearance-none checked:bg-orange dark:checked:bg-desaturatedRed1 p-2 rounded-full"
+          value="radio-button"
+        />
+        <input
+          type="radio"
+          name="theme"
+          id=""
+          class="radios appearance-none checked:bg-orange dark:checked:bg-desaturatedRed1 p-2 rounded-full"
+          value="radio-button"
+        />
+      </div>
+    </div>
+  </div>
+</div>
