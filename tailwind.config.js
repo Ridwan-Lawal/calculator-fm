@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.js}", "./index.html"],
+  darkMode: "class",
+  plugins: [require("@tailwindcss/custom-forms")],
   theme: {
     fontFamily: {
       spartan: ["League Spartan", "sans-serif"],
