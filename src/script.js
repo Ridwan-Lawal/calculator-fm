@@ -53,5 +53,3 @@ radioBtn.forEach((btn, i) => {
     }
   });
 });
-
-const doc = document.querySelector(".input");
