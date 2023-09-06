@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark">
+<html class="html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -55,17 +55,15 @@
               <input
                 type="radio"
                 name="theme"
-                id=""
-                checked="true"
-                class="radios transition-all duration-200 appearance-none checked:bg-orange dark:checked:bg-desaturatedRed1 p-2 rounded-full"
-                value="radio-button"
+                class="radios transition-all duration-250 appearance-none h-4 w-4 checked:bg-orange checked:dark:bg-desaturatedRed1 rounded-full"
+                value="light"
+                checked="true;"
               />
               <input
                 type="radio"
                 name="theme"
-                id=""
-                class="radios transition-all duration-200 appearance-none checked:bg-orange dark:checked:bg-desaturatedRed1 p-2 rounded-full"
-                value="radio-button"
+                class="radios appearance-none transition-all duration-250 h-4 w-4 checked:bg-orange checked:dark:bg-desaturatedRed1 rounded-full"
+                value="dark"
               />
             </div>
           </div>
@@ -75,13 +73,11 @@
       <!-- =============================================================screen============================================= -->
       <!-- screen -->
       <div
-        class="mt-10 w-full py-6 md:py-8 px-6 rounded-xl bg-veryLightGray dark:bg-veryDarkDesaturatedBlue3 text-right"
+        class="mt-10 w-full h-24 overflow-auto py-6 md:py-8 px-6 rounded-xl bg-veryLightGray dark:bg-veryDarkDesaturatedBlue3 text-right"
       >
         <h1
           class="screen-text text-5xl text-veryDarkGrayishYello dark:text-white"
-        >
-          0
-        </h1>
+        ></h1>
       </div>
 
       <!--================================================== buttons============================================== -->
@@ -90,17 +86,17 @@
       >
         <!-- first row -->
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           7
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           8
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           9
         </button>
@@ -112,66 +108,66 @@
 
         <!-- second row -->
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           4
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           5
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           6
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-oprt hover:bg-white transition-colors duration-300"
         >
           +
         </button>
 
         <!-- third row -->
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           1
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           2
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           3
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-oprt hover:bg-white transition-colors duration-300"
         >
           -
         </button>
 
         <!-- fourth row -->
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           .
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-show hover:bg-white transition-colors duration-300"
         >
           0
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-oprt hover:bg-white transition-colors duration-300"
         >
           /
         </button>
         <button
-          class="button-num hover:bg-white transition-colors duration-300"
+          class="button-num btn-oprt hover:bg-white transition-colors duration-300"
         >
           x
         </button>
@@ -190,5 +186,8 @@
         </button>
       </div>
     </div>
+
+    <!-- script -->
+    <script src="./src/script.js"></script>
   </body>
 </html>
